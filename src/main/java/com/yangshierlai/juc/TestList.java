@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * @Author ren
  * @Date 2020/11/27 18:44
- *              juc 并发包下的list
+ * juc 并发包下的list
  **/
 public class TestList {
 
@@ -18,7 +18,7 @@ public class TestList {
                 list.add(Thread.currentThread().getName());
             }).start();
         }
-
+//sadasdsadasqd
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
