@@ -18,7 +18,7 @@ public class TestList {
                 list.add(Thread.currentThread().getName());
             }).start();
         }
-//sadasdsadasqd
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
